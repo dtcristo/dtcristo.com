@@ -66,14 +66,14 @@ set :trailing_slash, false
 ###
 # Site Settings
 ###
-set :site_url, 'http://example.com/'
-set :site_title, 'Site Title'
-set :site_subtitle, 'This is the site subtitle'
-set :profile_text, %q(Pitchfork kogi forage, gluten-free pour-over drinking vinegar Etsy narwhal next level shabby chic bicycle rights tofu mustache scenester. Intelligentsia Brooklyn mumblecore, church-key meggings cardigan quinoa gluten-free banjo. Polaroid beard 8-bit, lumbersexual photo booth forage bitters mustache drinking vinegar biodiesel cardigan. Four loko raw denim polaroid selfies, mixtape skateboard lumbersexual. Odd Future Blue Bottle bicycle rights Etsy. Etsy Odd Future normcore, deep v Shoreditch seitan sustainable yr heirloom Brooklyn try-hard stumptown Bushwick cornhole. Portland chillwave pug Tumblr deep v readymade.)
-set :site_author, 'Site Author'
-set :twitter_username, 'example'
-set :disqus_shortname, 'example'
-set :google_analytics, 'XX-XXXXXXXX-X'
+set :site_url, 'http://dtcristo.com/'
+set :site_title, 'David Cristofaro'
+set :site_subtitle, 'Software developer, technology enthusiast, music lover'
+set :profile_text, %q(I'm a full time software developer living and working in Melbourne, Australia. I'm also a passionate science &amp; technology enthusiast and love to stay up to date. And all the time, I'm listening to the latest indie and electronic music.)
+set :site_author, 'David Cristofaro'
+set :twitter_username, 'dtcristo'
+set :disqus_shortname, 'dtcristo'
+set :google_analytics, 'UA-60447486-1'
 
 # Asset directories
 set :css_dir, 'stylesheets'
