@@ -77,7 +77,15 @@ set :site_title, 'David Cristofaro'
 set :site_subtitle, 'Software developer, technology enthusiast, music lover'
 set :profile_text, %q(I'm a full time software developer living and working in Melbourne, Australia. I'm also a passionate science &amp; technology enthusiast and love to stay up to date. And all the time, I'm listening to the latest indie and electronic music.)
 set :site_author, 'David Cristofaro'
+
+# Usernames
+set :github_username, 'dtcristo'
+set :keybase_username, 'dtcristo'
 set :twitter_username, 'dtcristo'
+set :linkedin_username, 'dtcristo'
+set :lastfm_username, 'dtcristo'
+set :spotify_username, 'dtcristo'
+
 set :disqus_shortname, 'dtcristo'
 set :google_analytics, 'UA-60447486-1'
 

@@ -10,13 +10,10 @@
     <title><%= page_title %></title>
   </head>
   <body>
-
     <% if current_article %>
       <nav class="main-nav">
         <a href="/"><span class="arrow">←</span> Home</a>
       </nav>
-    <% else %>
-      <%= partial 'profile' %>
     <% end %>
 
     <section id="wrapper" <% unless current_article %>class="home"<% end %>>
@@ -27,6 +24,9 @@
     </section>
 
     <%= javascript_include_tag 'all' %>
-    <%= partial 'google_analytics' %>
+
+    <% if google_analytics %>
+      <%= partial 'google_analytics' %>
+    <% end %>
   </body>
 </html>
