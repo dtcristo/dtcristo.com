@@ -65,7 +65,7 @@ set :trailing_slash, false
 
 # Deployment settings
 activate :s3_sync do |s3_sync|
-  s3_sync.bucket = 'dtcristo'
+  s3_sync.bucket = 'dtcristo.com'
   s3_sync.region = 'ap-southeast-2'
 end
 
