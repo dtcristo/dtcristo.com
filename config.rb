@@ -67,7 +67,7 @@ set :partials_dir, 'partials'
 # Development-specific configuration
 configure :development do
   # Reload the browser automatically whenever files change
-  # activate :livereload
+  activate :livereload
 end
 
 # Build-specific configuration
