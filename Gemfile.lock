@@ -170,7 +170,7 @@ DEPENDENCIES
   builder (~> 3.0)
   middleman (~> 3.4)
   middleman-blog (~> 3.5)
-  middleman-s3_sync (~> 3.3.3)
+  middleman-s3_sync (~> 3.3)
   middleman-syntax
   redcarpet
 
