@@ -6,7 +6,7 @@ gem 'middleman', '~> 3.4'
 gem 'middleman-blog', '~> 3.5'
 gem 'middleman-syntax'
 # gem 'middleman-livereload'
-gem 'middleman-s3_sync', '~> 3.3.3'
+gem 'middleman-s3_sync', '~> 3.3'
 
 # For feed.xml.builder/sitemap.xml.builder
 gem 'builder', '~> 3.0'
