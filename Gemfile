@@ -2,9 +2,10 @@
 # the following line to use "https"
 source 'http://rubygems.org'
 
-gem 'middleman', '~> 3.4.0'
-gem 'middleman-blog', '~> 3.5.3'
+gem 'middleman', '~> 3.4'
+gem 'middleman-blog', '~> 3.5'
 gem 'middleman-syntax'
+# gem 'middleman-livereload'
 gem 'middleman-s3_sync', '~> 3.3.3'
 
 # For feed.xml.builder/sitemap.xml.builder
