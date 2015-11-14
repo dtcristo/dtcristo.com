@@ -16,7 +16,7 @@ Elixir is built on top of the mature [Erlang](http://www.erlang.org/) virtual ma
 * **Hot code deploy** – Erlang allows hot deployment of code into a running production system, without any downtime.
 * **Battle proven** – Erlang has proven to scale. A notable example is [WhatsApp](http://www.fastcompany.com/3026758/inside-erlang-the-rare-programming-language-behind-whatsapps-success), the popular instant messaging service able to handle millions of connections on a single server.
 
-## Enter Elixir
+## Introducing Elixir
 
 Why use Elixir when Erlang is so awesome? Erlang is [weird](http://damienkatz.net/2008/03/what_sucks_abou.html). It has a strange syntax, a steep learning curve and dated tooling. Elixir solves this by building on the best of Erlang. It combines Erlang features like pattern matching and immutability with aspects from other languages:
 
@@ -39,6 +39,6 @@ The result of all of this is a truly modern, practical and performant language o
 
 Developers build with the familiar [MVC](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller) pattern seen in frameworks like Rails and Django. But unlike these, Phoenix is fast. So fast it measures response times in microseconds instead of milliseconds. You don’t have to sacrifice performance for the sake of productivity. You *can* have your cake and eat it.
 
-Phoenix is built for real-time. Technologies like [WebSockets](https://en.wikipedia.org/wiki/WebSocket) are supported out of the box, opening the door for a new type of web application.
+Phoenix is built for real-time, taking full advantage of Elixir's concurrency model. Technologies like [WebSockets](https://en.wikipedia.org/wiki/WebSocket) are supported out of the box, opening the door for a new type of web application.
 
 With the help of Phoenix, Elixir is set to be the go-to language for the web and poised to kickstart a real-time web revolution.
