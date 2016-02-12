@@ -14,7 +14,7 @@ gem 'middleman-blog', '~> 4.0'
 gem 'middleman-sprockets', '>= 4.0.0.rc.1'
 gem 'middleman-syntax'
 gem 'middleman-livereload'
-gem 'middleman-s3_sync', '~> 3.3'
+gem 'middleman-s3_sync', '~> 4.0'
 
 # For feed.xml.builder/sitemap.xml.builder
 gem 'builder', '~> 3.0'
