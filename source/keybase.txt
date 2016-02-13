@@ -1,0 +1,74 @@
+==================================================================
+https://keybase.io/dtcristo
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://dtcristo.com
+  * I am dtcristo (https://keybase.io/dtcristo) on keybase.
+  * I have a public key with fingerprint 80E5 6E6E 9CC6 14A8 4549  53EC 80B0 C7F3 0455 E273
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101ad6734f1623a5b20ac25792f8e9526f97ccdd77ac4451eff31bb61d58aa6b5940a",
+            "fingerprint": "80e56e6e9cc614a8454953ec80b0c7f30455e273",
+            "host": "keybase.io",
+            "key_id": "80b0c7f30455e273",
+            "kid": "0101ad6734f1623a5b20ac25792f8e9526f97ccdd77ac4451eff31bb61d58aa6b5940a",
+            "uid": "f708d5ed794f6bb12cbe14f3f2b95419",
+            "username": "dtcristo"
+        },
+        "service": {
+            "hostname": "dtcristo.com",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1455325913,
+    "expire_in": 157680000,
+    "prev": "06e4e256bf22e6648980292da0adf4da55dbb35894dd6f8399c270b49f200d4a",
+    "seqno": 10,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.51
+Comment: https://keybase.io/crypto
+
+yMNFAnicrZJ7UFRVHMd3eQ0vBcrMFCa4NIm8vK9zHziliYWV2mOBJtPW+zh3uQm7
+y94Loog4EgM2gRQaVMsoQRkkhSmWJSiPHXQoQzQnQEhDJRyBIRCRgehepv5p+rPz
+z5nzO5/v9/zOd35tC9wNvsa99e3jHkm/KcaO5vIMQ3LTvu5shLeJO5G4bGQ7nN9g
+qggV1bxdFpE4BMVQjBMpmiAljMIJDvA4ygk4oFlcYiALcEpiaUEQRZrmBJIEGJQk
+AuN5ChMBw3EUD1gS5ZBoRJKtFuiwO2SrqtkyKAQUpCArCBRGcgwJSBYQUGBQHhVo
+iUBJACBOE5owxaboCq05nlNgrGzTatrBPN/ef/D/c98Z83YSjTIigCLNkhLF8xgu
+8BAjJULCeRaQGKuDCnRYuTSo0aIqOGRFtSE50YhWzZQFqAer/+RfRKxgS9O0dodN
+tQm2VO0mRVXtSpyuVHfadXQH5M1/m5h52SpqOWqKTOhQZJsVicM0UlBl3RXTQiBw
+wGJENAKz7LIDmmWdADTFoNrS34GZejgUJCEOKF7CcUhRJMMyKM7iIodyokSKHAAi
+zxOAYUlRpCSGYFkBp1GeZCUcRUVSj0WB6Vab5q2ZqpxF81Rki5VTMxwQyWlp3uJh
+MPoavDzd9AEz+PoE/jN2F80BsyGrf07y8+lrJLq5vLJlE4s2vDh2zJ3tu+1RV3R9
+Dql54lT3yb65iptV/UHxaQkthtdzXh4ofPdGmbP0TsGGF4T+6TOrdrX7Wzz3D+3p
+quksCz+8cCXdtDQga5P32uXtzoyxNYeGc9WebbG5IYvP94wcbPQ/X2nZVXGg4VxU
+7ozRHxz9YzDtnaFHJkq+Mb4SurID/7R+YfakK/ta++9EzvqBBUXV5atnz94r/uDu
+sQPjrenj7/d6BzpvF/YKm8WpX7f2bJ6KD77lMibnf9w0FXPOPeSnj3qPBy9N8TAu
+ii+OueD2+YkvUuNA88zTi782h6aODe0P8nr4R0dwl1R6MHmk8PqdC58E+po6/5xc
+NTD5mc9QwD3alGTaosz+0B25JLHmqRVHEvN3v3q61nWk9oHzVMH340p/Hv1s1aHw
+q/cZT/w7z2HncHhkRGfXqPqke+fesberYy6tqynJf8u+ZP1Iqcsx06uSOVcaprlN
+E91hW0fJ6vQW8tHQHQ0RRdkZV/LqXPXHg3qkqS+xy8u+YsjRtk7vW37P1DPWyjcn
+yvsSvJ5Hv12xxnHXf5YZJF1TxWF1PhtfMhW91/j4Y+sGfnkj9qE9H7Y6L+YffS6y
+tTbiRmGwZa2xoANczeq4eeZyZVTiXNvJlview4PLo6run+WHK9xO+OwOC/O7Vvpa
+wr7T0/mp28ZDWy6Z3DaW9D4w/QWZQ84S
+=ON2p
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/dtcristo
+
+==================================================================
