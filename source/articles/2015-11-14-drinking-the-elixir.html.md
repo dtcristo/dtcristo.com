@@ -37,7 +37,7 @@ The result of all of this is a truly modern, practical and performant language o
 
 A perfect fit for Elixir is web development. [Phoenix](http://www.phoenixframework.org/) is an amazing Elixir framework for building modern, real-time web applications. It gives developers a lightweight foundation to build interactive applications with massive scalability.
 
-Developers build using the familiar [MVC](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller) pattern seen in frameworks like Rails and Django. But unlike these, Phoenix is built for speed. Response times are measured in the microsecond. With Phoenix, don’t have to sacrifice performance for the sake of productivity. You *can* have your cake and eat it.
+Developers build using the familiar [MVC](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller) pattern seen in frameworks like Rails and Django. But unlike these, Phoenix is built for speed. Response times are measured in the microsecond. With Phoenix, you don’t have to sacrifice performance for the sake of productivity. You *can* have your cake and eat it.
 
 Phoenix is designed with real-time applications in mind, taking full advantage of Elixir's concurrency model. Technologies like [WebSockets](https://en.wikipedia.org/wiki/WebSocket) are supported out of the box, opening the door for a new type of web application.
 
