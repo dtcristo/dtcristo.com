@@ -85,9 +85,7 @@ end
 
 # Build-specific configuration
 configure :build do
-  # Minify CSS on build
   activate :minify_css
-
-  # Minify JavaScript on build
   activate :minify_javascript
+  # activate :minify_html
 end
