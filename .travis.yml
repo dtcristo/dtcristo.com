@@ -1,0 +1,15 @@
+branches:
+  only: master
+
+language: ruby
+
+install:
+  - bundle install
+
+script:
+  - bundle exec middleman build
+
+after_success:
+  - cat build/sitemap.xml
+  - cat build/feed.xml
+  # - bundle exec middleman s3_sync
