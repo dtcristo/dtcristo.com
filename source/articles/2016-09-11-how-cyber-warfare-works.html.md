@@ -6,6 +6,8 @@ id: uri:uuid:e2088e7f-5aac-49ed-a878-77c70d98a2ca
 published: false
 ---
 
-In August I had the honour of speaking at [Real Big Things](https://realbigthings.com/), an event with TED style talks. The theme of the event was “how things work” and I spoke about the dangers of cyber warfare in our modern society.
+Back in August I had the honour of speaking at [Real Big Things](https://realbigthings.com/), an event with TED style talks. The theme of the event was “how things work” and I spoke about the dangers of cyber warfare in our modern society.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ekGYL4ubOhg" frameborder="0" allowfullscreen></iframe>
+<div class="video">
+<iframe class="video--iframe" src="https://www.youtube.com/embed/ekGYL4ubOhg" frameborder="0" allowfullscreen></iframe>
+</div>
