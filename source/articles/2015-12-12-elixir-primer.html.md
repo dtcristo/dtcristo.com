@@ -1,7 +1,8 @@
 ---
-title: "Elixir primer - Part 1"
+title: "Elixir primer: Part 1"
 date: 2015-12-12 02:41 UTC
 tags:
+published: false
 ---
 
 I've been [excited](/drinking-the-elixir) by Elixir for some time and today I'm going to give a primer into its friendly syntax and powerful semantics. After this, you should be up to speed with most of the basic concepts and be excited to learn more.
