@@ -2,6 +2,7 @@
 title: Drinking the Elixir
 date: 2015-11-14 07:28 UTC
 tags:
+id: uri:uuid:c03680b2-a0bb-4761-adbb-9a8dbe88241c
 ---
 
 [Elixir](http://elixir-lang.org/) is a new and exciting open source programming language with scope to become [the next big language for the web](http://www.creativedeletion.com/2015/04/19/elixir_next_language.html). I'm here to evangelise and spread the word about Elixir.

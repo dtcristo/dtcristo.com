@@ -2,6 +2,7 @@
 title: How cyber warfare works
 date: 2016-09-11 02:22 UTC
 tags:
+id: uri:uuid:e2088e7f-5aac-49ed-a878-77c70d98a2ca
 published: false
 ---
 
