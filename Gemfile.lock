@@ -115,6 +115,8 @@ GEM
     middleman-syntax (2.1.0)
       middleman-core (>= 3.2)
       rouge (~> 1.0)
+    middleman-vcs-time (0.0.4)
+      middleman-core (~> 4.0)
     mime-types (3.1)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2016.0521)
@@ -164,6 +166,7 @@ DEPENDENCIES
   middleman-livereload (~> 3.4)
   middleman-s3_sync (~> 4.0)
   middleman-syntax (~> 2.1)
+  middleman-vcs-time (~> 0.0.4)
   mime-types (~> 3.1)
   redcarpet (~> 3.3)
   tzinfo-data

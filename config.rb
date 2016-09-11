@@ -44,6 +44,9 @@ activate :syntax
 set :markdown_engine, :redcarpet
 set :markdown, fenced_code_blocks: true, smartypants: true
 
+# Use commit time from git for sitemap.xml and feed.xml
+activate :vcs_time
+
 # Deployment settings
 activate :s3_sync do |s3_sync|
   s3_sync.bucket = 'dtcristo.com'
