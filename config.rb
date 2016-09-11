@@ -71,7 +71,8 @@ set :linkedin_username, 'dtcristo'
 set :lastfm_username, 'dtcristo'
 set :spotify_username, 'dtcristo'
 
-set :disqus_shortname, 'dtcristo'
+# set :disqus_shortname, 'dtcristo'
+set :disqus_shortname, nil
 set :google_analytics, 'UA-60447486-1'
 
 ###
