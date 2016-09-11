@@ -58,6 +58,7 @@ set :site_title, 'David Cristofaro'
 set :site_subtitle, 'Software developer, technology enthusiast, music lover'
 set :profile_text, %q(I'm a software developer living and working in Melbourne, Australia. I'm also a passionate science &amp; technology enthusiast and love to stay up to date. And all the time, I'm listening to the latest indie and electronic music.)
 set :site_author, 'David Cristofaro'
+set :site_id, 'uri:uuid:2d2e7b7d-85b6-462c-9d78-243d6921ff69'
 
 # Usernames
 set :github_username, 'dtcristo'
