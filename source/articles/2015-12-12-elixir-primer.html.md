@@ -2,6 +2,7 @@
 title: "Elixir primer: Part 1"
 date: 2015-12-12 02:41 UTC
 tags:
+id: uri:uuid:5e6c4726-172e-4349-92c1-b0c61a0eb9e2
 published: false
 ---
 
