@@ -20,3 +20,6 @@ gem 'builder', '~> 3.0'
 
 # For markdown
 gem 'redcarpet', '~> 3.3'
+
+# Used in s3_sync fog dependency
+gem 'mime-types', '~> 3.1'
