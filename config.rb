@@ -54,6 +54,8 @@ activate :s3_sync do |s3_sync|
 end
 
 ONE_HOUR = 3600
+ONE_DAY = 86_400
+ONE_WEEK = 604_800
 ONE_MONTH = 2_592_000
 ONE_YEAR = 31_536_000
 
@@ -61,7 +63,7 @@ ONE_YEAR = 31_536_000
 caching_policy 'text/html', max_age: ONE_HOUR, must_revalidate: true
 
 # Favicon
-caching_policy 'image/vnd.microsoft.icon', max_age: ONE_MONTH
+caching_policy 'image/vnd.microsoft.icon', max_age: ONE_DAY
 
 # Images, CSS and JS
 caching_policy 'image/png', max_age: ONE_YEAR
