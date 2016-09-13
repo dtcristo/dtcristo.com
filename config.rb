@@ -59,11 +59,13 @@ ONE_WEEK = 604_800
 ONE_MONTH = 2_592_000
 ONE_YEAR = 31_536_000
 
-# HTML, don't cache
+# HTML, TXT and XML, don't cache for long
 caching_policy 'text/html', max_age: ONE_HOUR, must_revalidate: true
+caching_policy 'text/plain', max_age: ONE_HOUR, must_revalidate: true
+caching_policy 'application/xml', max_age: ONE_HOUR, must_revalidate: true
 
 # Favicon
-caching_policy 'image/vnd.microsoft.icon', max_age: ONE_DAY
+caching_policy 'image/vnd.microsoft.icon', max_age: ONE_WEEK
 
 # Images, CSS and JS
 caching_policy 'image/png', max_age: ONE_YEAR
