@@ -53,6 +53,20 @@ activate :s3_sync do |s3_sync|
   s3_sync.region = 'ap-southeast-2'
 end
 
+# HTML, don't cache
+caching_policy 'text/html', max_age: 0, must_revalidate: true
+
+# Images, CSS and JS
+caching_policy 'image/png', max_age: (60 * 60 * 24 * 365)
+caching_policy 'text/css', max_age: (60 * 60 * 24 * 365)
+caching_policy 'application/javascript', max_age: (60 * 60 * 24 * 365)
+
+# Fonts
+caching_policy 'application/vnd.ms-fontobject', max_age: (60 * 60 * 24 * 365)
+caching_policy 'image/svg+xml', max_age: (60 * 60 * 24 * 365)
+caching_policy 'application/octet-stream', max_age: (60 * 60 * 24 * 365)
+caching_policy 'application/font-woff', max_age: (60 * 60 * 24 * 365)
+
 ###
 # Site settings
 ###
