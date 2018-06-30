@@ -1,0 +1,22 @@
+/*
+  X-Frame-Options: DENY
+  X-XSS-Protection: 1; mode=block
+  X-Content-Type-Options: nosniff
+/fonts/*
+  Cache-Control: public, max-age=31536000
+/images/*
+  Cache-Control: public, max-age=31536000
+/stylesheets/*
+  Cache-Control: public, max-age=31536000
+<% sitemap.resources.each do |resource| %>
+<% if (resource.destination_path =~ /\.html$/) %>
+<%= resource.url %>
+  Cache-Control: public, max-age=3600, must-revalidate
+  Content-Type: text/html; charset=utf-8
+<% end %>
+<% end %>
+<% blog.articles.each do |resource| %>
+<%= resource.url %>
+  Cache-Control: public, max-age=3600, must-revalidate
+  Content-Type: text/html; charset=utf-8
+<% end %>
