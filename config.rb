@@ -50,37 +50,6 @@ set :markdown, fenced_code_blocks: true, smartypants: true
 # Use commit time from git for sitemap.xml and feed.xml
 activate :vcs_time
 
-# Deployment settings
-activate :s3_sync do |s3_sync|
-  s3_sync.bucket = 'dtcristo.com'
-  s3_sync.region = 'ap-southeast-2'
-end
-
-ONE_HOUR = 3600
-ONE_DAY = 86_400
-ONE_WEEK = 604_800
-ONE_MONTH = 2_592_000
-ONE_YEAR = 31_536_000
-
-# HTML, TXT and XML, don't cache for long
-caching_policy 'text/html', max_age: ONE_HOUR, must_revalidate: true
-caching_policy 'text/plain', max_age: ONE_HOUR, must_revalidate: true
-caching_policy 'application/xml', max_age: ONE_HOUR, must_revalidate: true
-
-# Favicon
-caching_policy 'image/vnd.microsoft.icon', max_age: ONE_WEEK
-
-# Images, CSS and JS
-caching_policy 'image/png', max_age: ONE_YEAR
-caching_policy 'text/css', max_age: ONE_YEAR
-caching_policy 'application/javascript', max_age: ONE_YEAR
-
-# Fonts
-caching_policy 'application/vnd.ms-fontobject', max_age: ONE_YEAR
-caching_policy 'image/svg+xml', max_age: ONE_YEAR
-caching_policy 'application/octet-stream', max_age: ONE_YEAR
-caching_policy 'application/font-woff', max_age: ONE_YEAR
-
 ###
 # Site settings
 ###
