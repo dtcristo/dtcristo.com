@@ -12,8 +12,9 @@ page '/*.txt',  layout: false
 # Disable directory_index for 404 page
 page '/404.html', directory_index: false
 
-# Add dynamic Netlify headers configuration
+# Add Netlify headers and redirects configuration
 proxy '_headers', 'netlify_headers', ignore: true
+proxy '_redirects', 'netlify_headers', ignore: true
 
 ###
 # Helpers and extensions
