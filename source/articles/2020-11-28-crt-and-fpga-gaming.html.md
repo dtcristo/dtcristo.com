@@ -59,7 +59,7 @@ Here is what it looks like fully assembled sitting on top of my Intel NUC.
 
 The MiSTer is capable of emulating a stack of systems. The main ones I've played with so far are NES, SNES, PC Engine, Genesis, Game Boy, GBA and Amiga. An on-screen display allows you to select the different systems and ROMs using USB keyboard or gamepad.
 
-[![Super Mario World on CRT](images/crt-and-fpga-gaming/08.jpg)](images/crt-and-fpga-gaming/08.jpg)
+[![MiSTer OSD](images/crt-and-fpga-gaming/08.jpg)](images/crt-and-fpga-gaming/08.jpg)
 
 Here it is running Super Mario World from the SNES.
 
