@@ -53,7 +53,7 @@ I've combined this with two optional boards (as well as an SDRAM module not pict
 
 [![MiSTer expansion boards](images/crt-and-fpga-gaming/06.jpg)](images/crt-and-fpga-gaming/06.jpg)
 
-Here is what it looks like fully assembled sitting on top of my Intel NUC.
+Here it is fully assembled.
 
 [![MiSTer fully assembled](images/crt-and-fpga-gaming/07.jpg)](images/crt-and-fpga-gaming/07.jpg)
 
