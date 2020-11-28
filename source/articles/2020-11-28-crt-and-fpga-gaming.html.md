@@ -71,7 +71,7 @@ Here is Castlevania: Rondo of Blood (from the PC Engine) running at 480p.
 
 [![Castlevania: Rondo of Blood in 480p](images/crt-and-fpga-gaming/10.jpg)](images/crt-and-fpga-gaming/10.jpg)
 
-Another option is to double the refresh rate to 120Hz and keep the signal at 240 lines. You'll still end up with a 30KHz horizontal refresh and it will be in the range of the monitor. But it requires you to repeat a frames twice. To produce 240p@120Hz you need to run the output through the integrated video scaler rather than using "direct video". It uses a frame-buffer that will introduce up to one frame of input lag which may or may not be noticeable.
+Another option is to double the refresh rate to 120Hz and keep the signal at 240 lines. You'll still end up with a 30KHz horizontal refresh and it will be in the range of the monitor. But it requires you to repeat frames twice. To produce 240p@120Hz you need to run the output through the integrated video scaler rather than using "direct video". It uses a frame-buffer that will introduce up to one frame of input lag which may or may not be noticeable.
 
 Here is Rondo of Blood in 240p.
 
