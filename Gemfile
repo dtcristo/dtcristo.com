@@ -20,7 +20,7 @@ gem 'middleman-minify-html', '~> 3.4', '>= 3.4.1'
 gem 'builder', '~> 3.0'
 
 # For markdown
-gem 'redcarpet', '~> 3.3'
+gem 'redcarpet', '~> 3.5'
 
 # Used in s3_sync fog dependency
 gem 'mime-types', '~> 3.1'
