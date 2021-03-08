@@ -9,7 +9,7 @@ hide_nav: true
   <ul id="post-list">
     <% blog.articles.each do |article| %>
       <li>
-        <a href="<%= article.url %>">
+        <a href="<%= article.url.chomp('.html') %>">
           <div><%= article.title %></div>
           <div class="date"><%= article.date.strftime('%e %B %Y') %></div>
         </a>

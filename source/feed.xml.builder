@@ -22,7 +22,7 @@ xml.feed xmlns: 'http://www.w3.org/2005/Atom' do
   blog.articles.each do |article|
     xml.entry do
       xml.title article.title
-      xml.link href: URI.join(site_url, article.url), rel: 'alternate'
+      xml.link href: URI.join(site_url, article.url.chomp('.html')), rel: 'alternate'
       xml.id article.metadata[:page][:id]
       xml.published article.date.to_time.iso8601
       xml.updated article.mtime.iso8601
