@@ -12,10 +12,6 @@ page '/*.txt',  layout: false
 # Disable directory_index for 404 page
 page '/404.html', directory_index: false
 
-# Add Netlify headers and redirects configuration
-proxy '_headers', 'netlify_headers', ignore: true
-proxy '_redirects', 'netlify_redirects', ignore: true
-
 ###
 # Helpers and extensions
 ###
@@ -36,7 +32,7 @@ helpers do
 end
 
 activate :blog do |blog|
-  blog.permalink = '{title}'
+  blog.permalink = '{title}.html'
   # Matcher for blog source files
   blog.sources = 'articles/{year}-{month}-{day}-{title}.html'
   blog.layout = 'article'
