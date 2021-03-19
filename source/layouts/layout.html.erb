@@ -17,12 +17,8 @@
     <section id="wrapper"<% unless current_article %> class="home"<% end %>>
       <%= yield %>
       <footer id="footer">
-        <p class="small">© <%= config[:site_author] %> <%= Time.now.year %></p>
+        <p class="small">© <%= Time.now.year %> <%= config[:site_author] %></p>
       </footer>
     </section>
-
-    <% if config[:google_analytics] %>
-      <%= component 'google_analytics' %>
-    <% end %>
   </body>
 </html>
