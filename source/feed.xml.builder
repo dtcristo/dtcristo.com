@@ -12,7 +12,7 @@ xml.instruct!
 xml.feed xmlns: 'http://www.w3.org/2005/Atom' do
   xml.title config[:site_title]
   xml.subtitle config[:site_subtitle]
-  xml.link href: URI.join(site_url, current_page.path), rel: 'self'
+  xml.link rel: 'self', href: URI.join(site_url, current_page.path)
   xml.link href: URI.join(site_url, blog.options.prefix.to_s)
   xml.id config[:site_id]
   xml.updated site_updated.iso8601
@@ -22,7 +22,7 @@ xml.feed xmlns: 'http://www.w3.org/2005/Atom' do
   blog.articles.each do |article|
     xml.entry do
       xml.title article.title
-      xml.link href: URI.join(site_url, article.url.chomp('.html')), rel: 'alternate'
+      xml.link href: URI.join(site_url, article.url.chomp('.html'))
       xml.id article.metadata[:page][:id]
       xml.published article.date.to_time.iso8601
       xml.updated article.mtime.iso8601
