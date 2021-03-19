@@ -6,6 +6,7 @@
     <title><%= page_title %></title>
     <link rel="alternate" href="/feed.xml" type="application/atom+xml" title="Atom Feed">
     <link rel="stylesheet" href="<%= url_for '/stylesheets/all.css' %>">
+    <link rel="canonical" href="<%= URI.join(config[:site_url], current_page.url.chomp('.html')) %>">
   </head>
   <body>
     <% unless current_page.data.hide_nav %>
