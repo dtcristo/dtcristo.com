@@ -2,7 +2,7 @@
 title: Introduction to WebAssembly in Rust
 date: 2019-09-11 23:39 UTC
 tags:
-id: uri:uuid:34dc115d-0ede-47aa-a077-72b763f6ed0c
+id: urn:uuid:34dc115d-0ede-47aa-a077-72b763f6ed0c
 ---
 
 I gave an introductory talk about WebAssembly at the
