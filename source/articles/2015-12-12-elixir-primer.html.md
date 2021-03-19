@@ -11,9 +11,11 @@ I've been [excited](/drinking-the-elixir) by Elixir for some time and today I'm 
 If you want to follow along with the examples, you can [install](http://elixir-lang.org/install.html) Elixir and run the code in the `iex` interactive console.
 
 ## Basic types
+
 Along with common data types like integers, floats and booleans, Elixir has a number of unique types.
 
 ### Atoms
+
 Atoms are just like symbols in Ruby and represent a constant where their name is their value.
 
 ```elixir
@@ -22,6 +24,7 @@ Atoms are just like symbols in Ruby and represent a constant where their name is
 ```
 
 ### Lists
+
 Linked lists are very common in Elixir and used to store any ordered data. The pipe `|` character separates the head (front) and tail (rest) of the list where the head is a value and the tail is just another list. The following example shows three identical lists and the pipe character highlights the recursive nature of a list. In the third example `[]` is just an empty list used to indicate the end.
 
 ```elixir
@@ -32,6 +35,7 @@ Linked lists are very common in Elixir and used to store any ordered data. The p
 ```
 
 ### Tuples
+
 Tuples are like a lists but hold a known number of elements. Tuples are more performant than lists for random access.
 
 ```elixir
@@ -62,18 +66,21 @@ String.upcase("Héllö") # Elixir
 ```
 
 ### Keyword lists
+
 A keyword list is simply a regular list of 2-item tuples where the first element of each tuple is an atom.
 
 ```elixir
 list = [{:a, 1}, {:b, 2}]
 #=> [a: 1, b: 2]
 ```
+
 Keyword lists are quite common so have their own shorthand syntax.
 
 ```elixir
 list == [a: 1, b: 2]
 #=> true
 ```
+
 Key values can be accessed with the following syntax.
 
 ```elixir
