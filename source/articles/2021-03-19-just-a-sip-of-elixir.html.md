@@ -1,5 +1,5 @@
 ---
-title: "Just a sip of Eilixr"
+title: Just a sip of Eilixr
 date: 2021-03-19 12:35 UTC
 tags:
 id: urn:uuid:5e6c4726-172e-4349-92c1-b0c61a0eb9e2
