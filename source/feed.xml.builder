@@ -17,7 +17,7 @@ xml.feed xmlns: 'http://www.w3.org/2005/Atom' do
   xml.id config[:site_id]
   xml.updated site_updated.iso8601
   xml.author { xml.name site_author }
-  xml.rights "© #{site_author} #{Time.now.year}"
+  xml.rights "© #{Time.now.year} #{site_author}"
 
   blog.articles.each do |article|
     xml.entry do
