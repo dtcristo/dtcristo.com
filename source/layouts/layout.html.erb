@@ -2,6 +2,19 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <script type="text/javascript">
+      const site_protocol = "<%= config[:site_protocol] %>";
+      const site_host = "<%= config[:site_host] %>";
+
+      if (window.location.protocol !== site_protocol || window.location.host !== site_host) {
+        window.location.replace(
+          `${site_protocol}//${site_host}${window.location.pathname}${window.location.search}${window.location.hash}`
+        );
+      }
+    </script>
+    <% if ENV['BUILD_ENV'] != 'production' || current_page.data.sitemap_ignore %>
+      <meta name="robots" content="noindex, nofollow">
+    <% end %>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title><%= page_title %></title>
     <link rel="alternate" href="/feed.xml" type="application/atom+xml" title="Atom Feed">
