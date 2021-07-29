@@ -50,25 +50,7 @@ activate :vcs_time
 ###
 # Site settings
 ###
-site_protocol =
-  if ENV['BUILD_ENV'] == 'production' || ENV['BUILD_ENV'] == 'preview'
-    'https:'
-  else
-    'http:'
-  end
-
-site_host =
-  if ENV['BUILD_ENV'] == 'production'
-    'dtcristo.com'
-  elsif ENV['BUILD_ENV'] == 'preview'
-    "#{ENV['CF_PAGES_BRANCH']}.dtcristo.pages.dev"
-  else
-    'localhost:4567'
-  end
-
-set :site_protocol, site_protocol
-set :site_host, site_host
-set :site_url, "#{config[:site_protocol]}//#{config[:site_host]}/"
+set :site_url, "https://dtcristo.com/"
 set :site_title, 'David Cristofaro'
 set :site_subtitle, 'Software developer, technology enthusiast, music lover'
 set :profile_text, %q(I'm a software developer living and working in Melbourne, Australia. I'm also a passionate science &amp; technology enthusiast and love to stay up to date. All the while listening to the latest indie and electronic music.)
