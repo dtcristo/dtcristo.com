@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <% if ENV['BUILD_ENV'] != 'production' || current_page.data.sitemap_ignore %>
-      <meta name="robots" content="none">
+      <meta name="robots" content="noindex">
     <% end %>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title><%= page_title %></title>
