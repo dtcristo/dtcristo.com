@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <% if ENV['BUILD_ENV'] != 'production' || current_page.data.sitemap_ignore %>
+    <% if ENV['GITHUB_REF'] != 'refs/heads/main' || current_page.data.sitemap_ignore %>
       <meta name="robots" content="noindex">
     <% end %>
     <meta name="viewport" content="width=device-width, initial-scale=1">
