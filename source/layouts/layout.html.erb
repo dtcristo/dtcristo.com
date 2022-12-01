@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title><%= page_title %></title>
     <link rel="alternate" href="/feed.xml" type="application/atom+xml" title="Atom Feed">
+    <link rel="preload" href="<%= url_for '/stylesheets/all.css' %> as="style">
     <link rel="stylesheet" href="<%= url_for '/stylesheets/all.css' %>">
     <link rel="canonical" href="<%= URI.join(config[:site_url], current_page.url.chomp('.html')) %>">
   </head>
