@@ -2,17 +2,7 @@
 # Page options, layouts, aliases and proxies
 ###
 
-# Per-page layout changes:
-#
-# With no layout
-page '/*.xml',  layout: false
-page '/*.json', layout: false
-page '/*.txt',  layout: false
-
-# Disable directory_index for 404 page
-page '/404.html', directory_index: false
-
-import_file File.expand_path('_headers', config[:source]), '_headers'
+proxy '/_headers', '/headers', ignore: true
 
 ###
 # Helpers and extensions
