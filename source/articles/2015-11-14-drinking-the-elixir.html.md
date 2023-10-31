@@ -5,21 +5,21 @@ tags:
 id: urn:uuid:c03680b2-a0bb-4761-adbb-9a8dbe88241c
 ---
 
-[Elixir](http://elixir-lang.org/) is a new and exciting open source programming language with scope to become [the next big language for the web](http://www.creativedeletion.com/2015/04/19/elixir_next_language.html). I'm here to evangelise and spread the word about Elixir.
+[Elixir](http://elixir-lang.org/) is a new and exciting open source programming language with scope to become the next big language for the web. I'm here to evangelise and spread the word about Elixir.
 
 ## Erlang, the secret sauce
 
-Elixir is built on top of the mature [Erlang](http://www.erlang.org/) virtual machine and inherits its best features. Erlang (itself a programming language) was originally developed in the 1980s by [Ericsson](https://en.wikipedia.org/wiki/Ericsson) for use in their telephone switches and has a history of stability in large scale distributed systems. The Erlang platform is widely considered to be [awesome](http://veldstra.org/whyerlang/), yet it has never gained mainstream adoption. Despite this, the platform has a number of desirable properties:
+Elixir is built on top of the mature [Erlang](http://www.erlang.org/) virtual machine and inherits its best features. Erlang (itself a programming language) was originally developed in the 1980s by [Ericsson](https://en.wikipedia.org/wiki/Ericsson) for use in their telephone switches and has a history of stability in large scale distributed systems. The Erlang platform is widely considered to be awesome, yet it has never gained mainstream adoption. Despite this, the platform has a number of desirable properties:
 
 - **Concurrent** – Erlang has an [actor model](https://en.wikipedia.org/wiki/Actor_model) for concurrency where lightweight processes run in parallel and communicate via message passing. This simplifies the development of concurrent applications, reduces errors and enables extreme scalability.
 - **Distributed** – Processes can communicate easily across a distributed network of machines in the same way as local processes.
 - **Fault-tolerant** – Errors will happen in any system. Erlang embraces this idea and enables developers to build systems that automatically recover from faults and self-heal.
 - **Hot code deploy** – Erlang allows deployment of code into a running production system, without any downtime.
-- **Battle proven** – Erlang has proven to scale. A notable example is [WhatsApp](http://www.fastcompany.com/3026758/inside-erlang-the-rare-programming-language-behind-whatsapps-success), the popular instant messaging service able to handle millions of connections from a single server.
+- **Battle proven** – Erlang has proven to scale. A notable example is WhatsApp, the popular instant messaging service able to handle millions of connections from a single server.
 
 ## Introducing Elixir
 
-Why use Elixir when Erlang is so awesome? Erlang is [weird](http://damienkatz.net/2008/03/what_sucks_abou.html). It has a strange syntax, a steep learning curve and dated tooling. Elixir solves this by building on the best of Erlang. It combines Erlang features like pattern matching and immutability with aspects of other languages:
+Why use Elixir when Erlang is so awesome? Erlang is weird. It has a strange syntax, a steep learning curve and dated tooling. Elixir solves this by building on the best of Erlang. It combines Erlang features like pattern matching and immutability with aspects of other languages:
 
 - A natural syntax inspired by [Ruby](https://www.ruby-lang.org/).
 - Lazy evaluation from [Haskell](https://www.haskell.org/).

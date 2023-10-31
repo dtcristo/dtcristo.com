@@ -5,7 +5,7 @@ tags:
 id: urn:uuid:864b7b2d-048f-4812-b8d5-09b1effffac1
 ---
 
-With everyone else focused on the next-gen consoles, I've been going back in time. I recently picked up a used [Dell M992](https://www.cnet.com/products/dell-m992-crt-monitor-19-series/) CRT monitor for both modern and vintage gaming. I have to say it's far better than I expected.
+With everyone else focused on the next-gen consoles, I've been going back in time. I recently picked up a used [Dell M992](https://icecat.biz/p/dell/200-23389/monitors+crt-m992-3606529.html) CRT monitor for both modern and vintage gaming. I have to say it's far better than I expected.
 
 [![Dell M992 CRT monitor](images/crt-and-fpga-gaming/01.jpg)](images/crt-and-fpga-gaming/01.jpg)
 
