@@ -36,10 +36,9 @@ jobs:
           name: build
           path: build
       - name: Deploy to Cloudflare Pages
-        uses: cloudflare/pages-action@1
+        uses: cloudflare/wrangler-action@v4
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: dtcristo
-          directory: build
+          command: pages deploy build --project-name=dtcristo
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
